@@ -83,11 +83,7 @@ encoded_df = pd.DataFrame(transformed_data, columns=all_column_names)
 updated_df = df.drop(['JobRole', 'EducationField'], axis=1)
 print("Final Dataframe of the preprocessed dataset:")
 print(encoded_df)
-print("***********************************************")
 
-
-# final_df = pd.concat([updated_df,encoded_df],axis=1)
-# print(final_df)
 
 
 
